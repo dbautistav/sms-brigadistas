@@ -38,7 +38,10 @@ También puedes:
 
 ## Configurar Twilio
 
-TBD
+Obten un número de twilio con soporte de sms, y en la configuración de
+sms pon el webhoook como "Webhooks/TwiML" y apunta el url al path `/`
+de tu instalación, por ejemplo `https://sms-brigadistas.unlimited.pizza/`...
+debe ser accesible desde el internet.
 
 También necesitas tu sid de twilio. Este se obtiene de "[Account
 Settings][account-settings]" en el dashboard.
