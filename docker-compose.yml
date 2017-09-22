@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  sms-brigadistas:
+    build: .
+    env_file: .env
+    image: rbdr/sms-brigadistas
+    ports:
+      - "1989:1989"
